@@ -1,0 +1,9 @@
+*Kýsaca ne yaptýðýmýzý anlatmak istiyorum. Product veri tablosundan ürünleri listeledik ,
+müþteri istediði ürünü sepetine ekleyebilir bir veya daha çok fazla ürün satýn alabilir.
+*Yönetici tarafýnda ise Ürün ekleme yönetimi bulunmakta.
+*Gerekli güvenlik iþlemleri yapýldý validation - session gibi.
+*View tarafýnda görseli güzelleþtirdik.
+
+
+
+Kaynak= Pro ASP.NET MVC 5 kitabý
