@@ -1,0 +1,25 @@
+Kurumsal Mimaride ASP.NET MVC 
+
+1. Veri eriþim katmaný (Data Access Layer) 
+Add + New Project + C# + Class Library (.dll) + “ProjectName.Dal”
+Database (SQL) ile direk iletiþim kurulacak olan yer.
+2. Ýþ Katmaný (Business Logic Layer)
+Add + New Project + C# + Class Library (.dll) + “ProjectName.Bll”
+Kontrol ve yönetim olan yer.
+3. Servis Katmaný (Service Layer) - + WCF Service Library (Library)
+Add + New Project + C# + Web + WCF + WCF Service Library (.dll) + “ProjectName.WcfLibrary”
+4. Yayýna Kaldýrýlan Bolüm Katmaný – WCFService (Host)
+Add + New Project + C# + Web + Previous Versions + WCF Service(A web site for creating WCF services)  + “ProjectName.WcfIISHost”
+Bunun yeri Browse ile projenin bulunduðu klasör seçilmelidir.
+Servisler de yayýna çýkartýrýz.
+5. Entitites Katmaný (Katmaný deðil uygulamayý saðdan kesen.)
+Add + New Project + C# + Class Library (.dll) + “ProjectName.Entities”
+6. User Interface (MVC) 
+Add + New Project + C# + Web + Asp.Net MVC + “ProjectName.MvcWebUI”
+Empty seçerek ve Create a unit test Project eklenerek devam edilir.
+Kullanýcýya gösterilen  yada bilgi alýnan yer.
+7.Uygulamayý dikine kesenler 
+Validation, Security, E.Handling, Caching, Loglama, …
+
+
+Kaynak: https://www.youtube.com/watch?v=5YyWDA4C4WY&list=PLqG356ExoxZWzqtmN9-st09b-oXZoKcil

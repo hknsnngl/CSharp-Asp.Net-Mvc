@@ -1,0 +1,12 @@
+C:\Users\hakan\source\repos\Northwind\Northwind.Entities\bin\Debug\Northwind.Entities.dll.config
+C:\Users\hakan\source\repos\Northwind\Northwind.Entities\bin\Debug\Northwind.Entities.dll
+C:\Users\hakan\source\repos\Northwind\Northwind.Entities\bin\Debug\Northwind.Entities.pdb
+C:\Users\hakan\source\repos\Northwind\Northwind.Entities\bin\Debug\EntityFramework.dll
+C:\Users\hakan\source\repos\Northwind\Northwind.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hakan\source\repos\Northwind\Northwind.Entities\bin\Debug\EntityFramework.xml
+C:\Users\hakan\source\repos\Northwind\Northwind.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hakan\source\repos\Northwind\Northwind.Entities\obj\Debug\Northwind.Entities.csprojAssemblyReference.cache
+C:\Users\hakan\source\repos\Northwind\Northwind.Entities\obj\Debug\Northwind.Entities.csproj.CoreCompileInputs.cache
+C:\Users\hakan\source\repos\Northwind\Northwind.Entities\obj\Debug\Northwind.Entities.csproj.CopyComplete
+C:\Users\hakan\source\repos\Northwind\Northwind.Entities\obj\Debug\Northwind.Entities.dll
+C:\Users\hakan\source\repos\Northwind\Northwind.Entities\obj\Debug\Northwind.Entities.pdb

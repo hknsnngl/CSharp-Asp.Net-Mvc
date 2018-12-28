@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<!--16-->
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Northwind</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="header" > 
+        @{Html.RenderAction("CartSummary","Cart");}
+        <div class="title"><h1>Northwind Projesine Hoşgeldiniz</h1></div>
+    </div >
+    <div id="categories" class="sag">
+        @{Html.RenderAction("List", "Category");}    
+    </div>
+    <div id="content">
+        @RenderBody()
+    </div>
+</body>
+</html>

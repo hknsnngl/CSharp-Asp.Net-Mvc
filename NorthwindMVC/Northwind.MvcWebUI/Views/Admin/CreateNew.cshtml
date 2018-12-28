@@ -1,0 +1,13 @@
+﻿@model Northwind.Entities.Product
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Create new product</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.EditorForModel()
+    <input type="submit" value="save" />
+}

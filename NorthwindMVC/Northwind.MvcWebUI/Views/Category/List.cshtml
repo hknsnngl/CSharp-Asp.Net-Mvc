@@ -1,0 +1,19 @@
+﻿@model System.Collections.Generic.List<Northwind.Entities.Category>
+
+
+@Html.RouteLink("Home",new { controller="Product",action="Index",category=0},
+    new {@class=ViewBag.CurrentCategory==0?"selected":null })
+<br />
+@foreach (var category in Model)
+{
+    @Html.RouteLink(category.CategoryName,new
+{
+    category =category.CategoryID,
+    controller="Product",
+    action ="Index"
+},
+new {@class=category.CategoryID==ViewBag.CurrentCategory?"selected":null}
+)
+    <br />
+
+}

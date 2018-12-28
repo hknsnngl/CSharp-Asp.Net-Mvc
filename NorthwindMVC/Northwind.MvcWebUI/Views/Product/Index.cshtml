@@ -1,0 +1,38 @@
+﻿@model Northwind.MvcWebUI.Models.ProductViewModel
+@using Northwind.MvcWebUI.HtmlHelpers;
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";// null;
+}
+<!-- 12-15
+    model eklencek
+    Product MVC 5 View Page Razor dan oluştu
+    Razor foreach kısım.
+-->
+<!DOCTYPE html>
+
+<div class="sol">
+    @foreach (var product in Model.Products)
+    {
+    <div class="item">
+        <h3> @product.ProductName</h3>
+        <h3> @product.UnitPrice</h3>
+        @using (Html.BeginForm("AddToCart", "Cart"))
+        {
+        @Html.Hidden("productId", product.ProductID)
+        <input type="submit" value="Add To cart" />
+
+        }
+    </div>
+
+        //burda  using  
+        <br />
+    }
+        <div class="pager">
+            @Html.Pager(Model.PagingInfo)
+
+        </div>
+    
+
+</div>
+
